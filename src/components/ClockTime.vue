@@ -3,10 +3,11 @@
 </template>
 
 <script>
-
 export default {
   name: "ClockTime",
-
+  setup(){
+    //console.log($('a:first').text());
+  }
 }
 </script>
 

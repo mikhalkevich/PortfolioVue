@@ -1,5 +1,5 @@
 <template>
-  <div id="account">
+  <div id="account" class="home">
     <modal></modal>
   </div>
 </template>

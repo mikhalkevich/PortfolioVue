@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <input type="number" min="0" max="1000" id="users_number" v-model="UsersNumber" @input="getUsers"/>
     <div v-for="user in users" :key="user.id">
       <UserCard :user="user"></UserCard>
