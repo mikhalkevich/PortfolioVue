@@ -1,0 +1,14 @@
+@import '_variables.scss';
+body {
+  margin:0;
+  padding:0;
+}
+#nav a {
+  font-size:$font_size_big !important;
+}
+#app {
+  color: $primary;
+}
+.page {
+  text-align: center;
+}

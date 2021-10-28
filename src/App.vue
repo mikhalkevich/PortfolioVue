@@ -2,17 +2,17 @@
   <div id="header">$</div>
   <div id="nav">
     <router-link to="/" data-about="Home page">Home</router-link> |
-    <router-link to="/about" data-about="About page">About</router-link> |
-    <router-link to="/users" data-about="User page with clients">Users</router-link> |
-    <router-link to="/account" data-about="Page with modal">Account</router-link> |
-    <router-link to="/time" data-about="Something more...">Time</router-link>
+    <router-link to="/about" data-about="I am Mikhalkevich Alexandr - web-developer, web-master.">About me</router-link> |
+    <router-link to="/users" data-about="Every my clients is my friend. So meet my friend">My clients</router-link> |
+    <router-link to="/account" data-about="My works here ">My works</router-link> |
+    <router-link to="/time" data-about="Something more...">Contacts</router-link>
   </div>
   <router-view />
 </template>
 
 <style lang="scss">
 #app {
-  margin: 30px auto;
+  margin: $font_size_big auto;
 }
 
 .view {

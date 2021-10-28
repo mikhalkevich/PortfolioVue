@@ -12,7 +12,7 @@
 <script>
 import { ref } from 'vue'
 import "gitart-vue-dialog/dist/style.css";
-import { GDialog, plugin } from "gitart-vue-dialog";
+import { GDialog } from "gitart-vue-dialog";
 
 export default {
   name: "Modal",
