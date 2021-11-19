@@ -27,8 +27,9 @@
 #nav {
   padding: 30px;
   text-align: center;
-
+  display:flex;
   a {
+    flex:1;
     font-weight: bold;
 
     color: #42b983;

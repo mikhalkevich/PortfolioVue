@@ -1,4 +1,8 @@
-$primary: purple;
+$primary: #800080FF;
 $font_size_middle: 18pt;
 $font_size_big: $font_size_middle + 5;
 $page_width: 600px;
+$green: #63a35c;
+$green-dark: darken($green, 10%);
+$green-light: lighten($green, 10%);
+$purple: adjust-hue($green, 180deg);

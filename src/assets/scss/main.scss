@@ -1,4 +1,14 @@
 @import '_variables.scss';
+@mixin block {
+  border: solid 1px green;
+  padding:10px;
+  border-radius: 6px;
+}
+@for $index from 2 to 5 {
+  #nav a:nth-child(#{$index}){
+    color:gold !important;
+  }
+}
 body {
   margin:0;
   padding:0;
@@ -7,7 +17,7 @@ body {
   font-size:$font_size_big !important;
 }
 #app {
-  color: $primary;
+  color: $purple;
 }
 .page {
   text-align: center;
